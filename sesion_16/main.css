@@ -1,0 +1,129 @@
+body{
+    background-color: darkslategray;
+    
+}
+main{
+    width: 100%;
+    height: 70vh;
+    background-image: url(imagenes/fondo-1400x860.jpg);
+}
+    
+
+
+header{
+    width: 100%;
+    height: 8vh;
+    background-color:darkolivegreen;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.A{
+    width: 45%;
+    height: auto;
+    background-color: coral;
+    
+}
+
+.B{
+    width: 45%;
+    height: auto;
+    background-color: darkgreen;
+
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: blueviolet;
+}
+
+
+.logo{
+    width: 45%;
+    color:white;
+    background-color: darkgoldenrod;
+    
+}
+
+.logo img{
+    height: 8vh;
+    overflow: hidden;
+}
+
+.Listas{
+    width: 15%;
+    position align:right;
+    background-color: red;*/
+    list-style-position:unset;
+    
+}
+
+.Lista{
+    margin-left: auto;
+    color:white;
+    list-style: none;
+    cursor: pointer;
+    
+
+}
+
+.dosListas{
+    color:darkgoldenrod;
+    position align:right;
+    background-color: brown;
+    list-style-position:unset;
+
+
+}
+
+.Listas2{
+    width: 50%;
+    position align:right;
+    list-style-position:unset;
+    color:white;
+
+}
+    
+
+.Lista2{
+    margin-left: auto;
+    color:white;
+    list-style: none;
+    cursor: pointer;
+}
+
+ul{
+    width: 80%;
+    height:auto
+    align-self:center;
+    display: flex;
+    flex-flow: row wrap;  
+    align-items: center;
+}
+
+li{
+    width: 20%;
+}
+
+.azul {
+    
+    color:dodgerblue;
+    
+}
+
+.button {
+    background-color:dodgerblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+  }

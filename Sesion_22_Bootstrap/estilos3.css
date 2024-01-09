@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#supizq{
+    height: 70vh;
+    background-color:darkgray;
+}
+
+
+
+#intsupdercharriba{
+    background-color: blueviolet;
+    height: 20vh;
+
+}
+
+#intsupderchabajo{
+    background-color:brown;
+    height: 40vh;
+
+
+}
+
+
+#Pie{
+   height: 20vh;
+   background-color: coral;
+}

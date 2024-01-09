@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#sup{
+    height: 70vh;
+    background-color:darkgray;
+}
+#izq{
+    background-color: antiquewhite;
+    height: 70vh;
+
+}
+#med{
+    background-color: blue;
+    height: 70vh;
+}
+#drcha{
+    background-color: aqua;
+    height: 70vh;
+
+}
