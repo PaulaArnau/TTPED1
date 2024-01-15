@@ -6,29 +6,37 @@
 }
 
 body {
+    
     font-size: medium;
     text-align: center;
     /*background-color: rgb(127, 59, 150);*/
     width: 100%;
     height: 50%;
+    background-image: url(fotos_index/f.elconfidencial.com_original_d9e_66d_793_d9e66d793adbc994841e60850a17e61c.jpg);
     
 }
 
 h1 {
+  width: 100%;
+  height: 35vh;
   text-align: center;
   font-size: 4em;
-  font-family:'Times New Roman', Times, serif
+  font-family:'Times New Roman', Times, serif;
+  color: azure;
+  
   
 
 }
 
 h2 {
+    
     text-align: center;
+    color: azure;
 }
 
 #contenedor {
-    width: 90%;
-    height: 100vh;
+    width: 70px;
+    height: 70vh;
     margin-left: auto;
     margin-right: auto;
     /*background-color:darkolivegreen;*/
@@ -39,13 +47,22 @@ h2 {
 }
 
 .elemento {
-    width: 20vh;
+    width: 150%;
     height: 10vh;
-    background-color:black;
+    padding: 20px;
+    background-color:azure;
+    color:black;
+    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 3%;
+    margin: 30%;
+    display: flex;
+    flex-direction:row wrap;
+    justify-content:space-evenly;
+    align-items: center;
+   
 
 }

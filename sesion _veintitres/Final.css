@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Listas{
+    width: 15%;
+    position align:right;
+    list-style-position:unset;
+    
+}
+
+.Lista{
+    margin-left: auto;
+    list-style: none;
+    cursor: pointer;
+    
