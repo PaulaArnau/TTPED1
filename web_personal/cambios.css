@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+
 #unosupizq {
     height: 20vh;
     background-color:blue;
@@ -14,10 +15,31 @@
     background-color: aqua;
 
 }
+.Listas{
+    list-style-type: none;
+    
+    display: inline;
+}
+.Lista{
+    
+    float: left;
+    margin: 8px;
+    padding:0 4px;
+}
 
 #unocentro {
     height: 80vh;
-    background-color: blueviolet;
+    background-color:black;
+
+
+}
+h3{
+    color: azure;
+    align-content: center;
+
+}
+h1{
+    color: azure;
 
 }
 
