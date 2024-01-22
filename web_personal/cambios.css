@@ -1,51 +1,132 @@
 *{
     box-sizing: border-box;
+    font-family: 'Work Sans';
     margin: 0;
     padding: 0;
 }
-
+html{
+    
+    scroll-behavior: smooth;
+}
 
 #unosupizq {
-    height: 20vh;
-    background-color:blue;
+    height: 10vh;
+    /*background-color: blueviolet;*/
 
+}
+img{
+    margin-top: 40px;
+    
+    display: block;
+    width: 50%;
+    margin: auto;
+    border-radius: 50%;
+    padding: 20px;
+    background-color:darkblue;
+    max-width: 250px;
+    margin: auto;
+    text-align: center;
+    border-radius: 50px;
+}
+#trabajos{
+    margin-top: 40px; 
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color:darkblue;
+    max-width: 100px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#uno{
+    align-items: center;
+    text-align: center;
 }
 #unosupderch {
-    height: 20vh ;
-    background-color: aqua;
-
+    height: 10vh ;
+    width: 100%;
+    background-color:darkblue;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    flex-flow:row wrap;
+    align-items: center;
+    align-content:space-evenly;
 }
-.Listas{
-    list-style-type: none;
     
-    display: inline;
+
+
+.Listas{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
 }
 .Lista{
     
     float: left;
-    margin: 8px;
-    padding:0 4px;
+    padding: 15px 10px;
+    color: azure;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Righteous';
 }
+#row{
+   
+}
+
 
 #unocentro {
-    height: 80vh;
-    background-color:black;
-
-
+    height: 90vh;
+    background-image: url(69455.jpg);
+    
 }
-h3{
-    color: azure;
+h2{
+    color: rgb(194, 195, 195);
     align-content: center;
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 40px 0;
 
 }
 h1{
     color: azure;
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 10px 0;
+
+}
+h3{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 10px 0;
+    height: 30px;
+    color: azure;
+
+}
+p{
+    color: rgb(194, 195, 195);
+    padding: 10px 0;
+    text-align: center;
+    font-family: 'Righteous';
 
 }
 
 #dosizq {
     height: 100vh;
-    background-color: brown;
+    background-color:black;
     
 }
 
@@ -55,72 +136,132 @@ h1{
 }
 #dosderechaarriba{
     height: 20vh;
-    background-color: chartreuse;
+    background-color:black;
 }
 #dosderechaabajo{
     height: 80vh;
-    background-color: darkblue;
+    background-color:black;
+}
+
+#sobremi{
+    height: 50%;
+    padding-right: 20vh;
+    font-family:;
+
+
 }
 
 #tresarriba{
     height: 20vh;
-    background-color: coral;
+    background-color:rgb(15, 15, 15);
 }
 #trescajaarribaizq{
     height: 40vh;
-    background-color: aquamarine;
+    background-color:rgb(15, 15, 15);
 }
 #trescajaarribaderecha{
     height: 40vh;
-    background-color: blue;
+    background-color:rgb(15, 15, 15);
 }
 #trescajaabajoizq{
     height: 40vh;
-    background-color: brown;
+    background-color:rgb(15, 15, 15);
 }
 #trescajaabajoderecha{
     height: 40vh;
-    background-color: darkgreen;
+    background-color:rgb(15, 15, 15);
 }
 #cuatroarriba{
     height: 50vh;
-    background-color: darkkhaki;
+    background-color:black;
+    text-align: center;
+    padding: 10px 0;
 }
 #cuatroabajoizq{
     height:70vh;
-    background-color: indigo;
+    background-color:black;
+    text-align: center;
+    padding: 10px 0;
 }
 #cuatroabajomed{
     height:70vh;
-    background-color: cadetblue;
+    background-color:black;
+    text-align: center;
+    padding: 10px 0;
 }
 #cuatroabajoderech{
     height:70vh;
-    background-color: darkolivegreen;
+    background-color:black;
+    text-align: center;
+    padding: 10px 0;
 }
 
-#cincoarribaizq{
+
+#cincoarriba{
     height: 20vh;
-    background-color: darkolivegreen;
-}
-#cincoarribaderch{
-    height: 20vh;
-    background-color: darkviolet;
+    background-color:rgb(15, 15, 15);
+    text-align: center;
+    padding: 10px 0;
 }
 #cincoabajo{
     height: 80vh;
-    background-color: darkorange;
+    background-color:rgb(15, 15, 15);
+    text-align: center;
+    padding: 10px 0;
+}
+#cincoabajocentro{
+    color: azure;
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 10px 0;
+
+    
 }
 
-#seisarribaizq{
-    height: 20vh;
-    background-color:brown;
+
+#cincoabajocentroabajo{
+    color: azure;
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 10px 0;
+
 }
-#seisarribaderch{
+
+
+#seisarriba{
     height: 20vh;
-    background-color:darkkhaki;
+    background-color:black;
+    text-align: center;
+    padding: 10px 0;
+
 }
+
 #seisabajo{
     height: 80vh;
-    background-color:blue;
+    background-color:black;
+    text-align: center;
+    padding: 10px 0;
+}
+#redes{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+#casa{
+    color: azure;
+
+}
+#fecha{
+    color: azure;
+
 }
