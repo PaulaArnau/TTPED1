@@ -80,9 +80,6 @@ img{
     list-style: none;
     font-family: 'Righteous';
 }
-#row{
-   
-}
 
 
 #unocentro {
@@ -146,7 +143,7 @@ p{
 #sobremi{
     height: 50%;
     padding-right: 20vh;
-    font-family:;
+    font-family: 'Righteous';
 
 
 }
@@ -265,3 +262,66 @@ p{
     color: azure;
 
 }
+
+/*// Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) { 
+    .menu, .main, .right {
+      width: 100%;
+    }
+   }*/
+
+  /*// Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) { 
+    .menu{
+      width: 30%;
+
+    }
+    .main{
+      width: 40%;
+    }
+    .right{
+      width: 30%;
+
+    }
+
+    
+   }
+
+  /*// Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) { 
+    .menu{
+      width: 25%;
+    }
+    .main{
+      width: 50%;
+    }
+    .right{
+      width: 25%;
+    }
+
+  }
+
+  /*// Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) { 
+    .menu{
+      width: 15% ;
+
+    }
+    .main{
+      width: 70%;
+    }
+    .right{
+      width: 15%;
+
+    }
+   }
+
+
+
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: 
+    .menu, .main, .right {
+      width: 100%;
+    }
+    }
+  
