@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#unosupizq {
+    height: 20vh;
+    background-color:blue;
+
+}
+#unosupderch {
+    height: 20vh ;
+    background-color: aqua;
+
+}
+
+#unocentro {
+    height: 80vh;
+    background-color: blueviolet;
+
+}
+
+#dosizq {
+    height: 100vh;
+    background-color: brown;
+    
+}
+
+#dosderech {
+    height: 100vh;
+
+}
+#dosderechaarriba{
+    height: 20vh;
+    background-color: chartreuse;
+}
+#dosderechaabajo{
+    height: 80vh;
+    background-color: darkblue;
+}
+
+#tresarriba{
+    height: 20vh;
+    background-color: coral;
+}
+#trescajaarribaizq{
+    height: 40vh;
+    background-color: aquamarine;
+}
+#trescajaarribaderecha{
+    height: 40vh;
+    background-color: blue;
+}
+#trescajaabajoizq{
+    height: 40vh;
+    background-color: brown;
+}
+#trescajaabajoderecha{
+    height: 40vh;
+    background-color: darkgreen;
+}
+#cuatroarriba{
+    height: 50vh;
+    background-color: darkkhaki;
+}
+#cuatroabajoizq{
+    height:70vh;
+    background-color: indigo;
+}
+#cuatroabajomed{
+    height:70vh;
+    background-color: cadetblue;
+}
+#cuatroabajoderech{
+    height:70vh;
+    background-color: darkolivegreen;
+}
+
+#cincoarribaizq{
+    height: 20vh;
+    background-color: darkolivegreen;
+}
+#cincoarribaderch{
+    height: 20vh;
+    background-color: darkviolet;
+}
+#cincoabajo{
+    height: 80vh;
+    background-color: darkorange;
+}
+
+#seisarribaizq{
+    height: 20vh;
+    background-color:brown;
+}
+#seisarribaderch{
+    height: 20vh;
+    background-color:darkkhaki;
+}
+#seisabajo{
+    height: 80vh;
+    background-color:blue;
+}
